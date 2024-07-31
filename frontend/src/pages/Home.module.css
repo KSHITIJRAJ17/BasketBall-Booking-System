@@ -1,0 +1,112 @@
+.uploadFile{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #efefef;
+}
+.uploadLabel{
+    position: absolute;
+    border-style: dashed;
+    border-width: 1.5px;
+    width: 90%;
+    height: fit-content;
+    top: 10%;
+    left: 5%;
+}
+
+.sectionGroup{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width:50%;
+}
+.sectionBtn{
+    height: 50px;
+    width: 24%;
+    background-color: #d6d4f8;
+    border-width: 0px;
+    border-radius: 10px;
+}
+.sectionBtnActive{
+    background-color: #6861FF;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.cloudIcon{
+    font-size: 100px;
+    color: #E8E7FE;
+}
+.section{
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    height: fit-content;
+    position: absolute;
+    top: 30.5%;
+    left: 25%;
+}
+.secSubmitBtn{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 20%;
+    height: 35px;
+    background-color: #6861FF;
+    border-width: 0px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.filesWrapper{
+  display: flex;
+  margin-top: 40%;
+  margin-left: 5%;
+  width: 90%;
+}
+.loadingBar {
+    width: fit-content; /* Set the width to 90% */
+    height: 10px !important;
+    background-color: #ddd;
+    position: relative;
+    margin-top: 0.5%;
+    margin-left: 1%;
+  }
+/* UploadFile.module.css */
+
+  
+  /* Other existing styles */
+  
+  .loadingBar {
+    width: 100%;
+    height: 4px;
+    background-color: #ddd;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .loadingBar::after {
+    content: '';
+    display: block;
+    width: 50%; /* Adjust the width based on the loading progress */
+    height: 100%;
+    background-color: #4caf50; /* Loading bar color */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  
+ 
+  
+  .selectedFileIcon {
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    margin-bottom: 8px; /* Add spacing between file icons */
+  }
+  
